@@ -1124,6 +1124,7 @@
 						wordIndex = 0;
 						wordList = getRandomWords();
 						started = false;
+						inputValue = '';
 					}}>Try again</button
 				>
 			{/if}
