@@ -1,0 +1,7 @@
+services:
+  wpm-reece-ooo:
+    build: .
+    x-ports:
+      - wpm.reece.ooo:8002/https
+    environment:
+      PORT: 8002
